@@ -51,7 +51,7 @@ std::cout<<" The perimeter of Rectangle 2 is "<<rect2.Perimeter()<<std::endl;
   // ===================== YOUR CODE HERE ========================
   // Call LargestRectangleByArea to determine which rectangle
   // is larger, and print out its length, width, and area.
-  // Follow the README for formatting.
+  // Follow the README for formatting
   // =============================================================
   std::cout<< " The largest rectangle has a length of "<<LargestRectangleByArea(rect1, rect2).GetLength()
   <<", a width of "<<LargestRectangleByArea(rect1, rect2).GetWidth()<<", and an area of "
