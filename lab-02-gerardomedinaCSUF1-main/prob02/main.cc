@@ -1,9 +1,9 @@
 // Please fill in below.
-// <Your name>
+// <gerardo medina>
 // <Your section number> (e.g. CPSC 121L-01)
 // <Date>
 // <Your csu.fullerton.edu email>
-// <Your GitHub username>
+// <gerardomedinacsuf1>
 //
 // Lab 4-2
 // If it is a pair programming lab please specify partner below.
@@ -14,6 +14,8 @@
 #include "rectangle.h"
 
 int main() {
+
+  int length;
   std::cout << "====== Rectangle 1 ======" << std::endl;
   // ===================== YOUR CODE HERE ========================
   // Accept user input for the length and width of rectangle 1,
