@@ -13,20 +13,14 @@
 
 unsigned int Rectangle::Area() const {
 
-  int area = length_* width_;
-
-  // ===================== YOUR CODE HERE ========================
-  // Compute the area of this rectangle object.
-  // Remember that member functions can access the member variables of the
-  // class. Hint: look at `rectangle.h` to see the member variables you can
-  // access.
-  // =============================================================
+  int area= GetLength() * GetWidth();
+  
   return area;
 }
 
 unsigned int Rectangle::Perimeter() const {
 
-  int perimeter= (2*length_)+(2*width_);
+  int perimeter= 2*GetLength()+ 2*GetWidth();
   // ===================== YOUR CODE HERE ========================
   // Compute the perimeter of this rectangle object.
   // =============================================================
@@ -38,7 +32,9 @@ Rectangle LargestRectangleByArea(Rectangle &r1, Rectangle &r2) {
   if(r1.Area() > r2.Area()){
     return r1;}
     else{
-      return r2;
+return r2;
+    }{
+
     }
   
   // ===================== YOUR CODE HERE ========================
@@ -46,4 +42,4 @@ Rectangle LargestRectangleByArea(Rectangle &r1, Rectangle &r2) {
   // the Rectangle whose area is larger.
   // =============================================================
   return r1;
-}
+

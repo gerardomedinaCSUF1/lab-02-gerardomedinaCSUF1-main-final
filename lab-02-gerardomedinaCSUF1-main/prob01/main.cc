@@ -3,7 +3,7 @@
 // <Your section number> (e.g. CPSC 121L-01)
 // <Date>
 // <Your csu.fullerton.edu email>
-// <gerardomedinacsuf1>
+// <Your GitHub username>
 //
 // Lab 4-1
 // If it is a pair programming lab please specify partner below.
@@ -36,12 +36,12 @@ int main() {
   int y = 0;
   std::cout << "What y? ";
   std::cin >> y;
-  Bubble my_bubble{};
-  my_bubble.SetX(x);
-  my_bubble.SetY(y);
-  my_bubble.SetColor(color);
-  my_bubble.SetSize(size);
 
+Bubble my_bubble{};
+my_bubble.SetX(x);
+my_bubble.SetY(y);
+my_bubble.SetColor(color);
+my_bubble.SetSize(size);
   // ========================== YOUR CODE HERE =============================
   // Instantiate a `Bubble` object into a variable called `my_bubble`.
   // Then, use the member functions to set color, size, and x, y coordinates
